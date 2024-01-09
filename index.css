@@ -1,0 +1,569 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.bannerImage
+{
+    background-blend-mode: darken;
+    background-image:url(/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+
+.headerText
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+
+}
+
+
+.headerText h5
+{
+    height: 40px;
+    width: 259px;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    
+
+}
+
+.headerText h2
+{
+    height: 190px;
+    width: 662px;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+
+.mainBody
+{
+/* margin: 120px 0px; */
+    width: 1320px;
+    height: 600px;
+    margin: 200px 140px 200px 140px;
+}
+
+.mainBody
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main h1
+{
+    width: 383px;
+    height: 107px;
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.HOLIDAY
+{
+    margin: 48px;
+}
+
+.HOLIDAY h6
+{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.HOLIDAY h3
+{
+    
+    color: #070211;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.party
+{
+    width: 1320px;
+    height: 600px;
+    
+}
+
+.backgroundImage
+{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    background-image: url('Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-color: #07021181;
+    border-radius: 20px;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeParty
+{
+ margin-left: 126px;
+ display: block; 
+}
+
+.welcomeParty h1
+{
+    width: 662px;
+    height: 176px;
+    color: white;
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+
+.welcomeParty p
+
+{
+    width: 697px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    
+}
+
+.button
+{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    background: #FF0000;; 
+    cursor: pointer;
+    height: 56px;
+    width: 157px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.eventSchedule
+{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(#ff000047, white);
+    margin: 50px 140px 0px 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventText p
+{
+    width: 549px;
+    height: 168px;
+    /* margin: 100px 385px 0px 385px; */
+    color: #070211;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Place
+{
+    color: #FF0000;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+/* Above is fully completed don't touch */
+
+
+.roundCircleBody
+{
+    width: 1320px;
+    height: 420px;
+    background-color: none;
+    margin: 100px 140px 50px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.roundCircle
+{
+    height: 320px;
+    width: 20px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1
+{
+    position: absolute;
+    height: 290px;
+    width: 290px;
+    background-color: none;
+    border-radius: 50%;
+    background-image: url(/Ellipse\ 1.png);
+    
+}
+
+
+.circle2
+{
+    height:320px;
+    width: 320px;
+    background-color: none;
+    border-radius: 50%;
+    border: solid red 10px;
+    position: absolute;
+}
+
+/* This part is only for main two div */
+
+.roundCircleBodyText1
+{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+}
+
+.roundCircleBodyText2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+/* This part is only for main two div */
+
+.roundCircleBodyText1 h5
+{
+    width: 207px;
+    height: 29px;
+    color: #FF0000;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.roundCircleBodyText1 h2
+{
+    width: 328px;
+    height: 60px;
+    color: #070211;
+    font-size: 40px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+
+.roundCircleBodyText1 p
+{
+    width: 393px;
+    height: 128px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+.roundCircleBodyText2 h2
+{
+    color: #FF0000;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+
+.roundCircleBodyText2 p
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.roundCircleBodyText2 image
+{
+    width: 140px;
+    height: 140px;
+}
+
+
+.Portfolio
+{
+    width: 1320px;
+    height: 1150px;
+    margin: 100px 140px 50px 140px;  
+}
+
+.text1
+{
+    height: 200px;
+    width: 1320px;
+    
+}
+
+#text1span1
+{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+#text1span2
+{
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+
+#text1span3
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.imageRow1
+{
+    display: flex;
+}
+
+.imageRow2
+{
+    display: flex;
+}
+
+.box 
+{
+    width:  410px;
+    height: 440px;
+    margin: 14px;
+    transition: 1s
+}
+
+.box img
+{
+    width: 410px;
+    height: 440px;
+    display: block;
+}
+
+.box:hover
+{
+    transform: scale(1.2);
+    z-index: 3;
+}
+
+/* News shelter is fully completed don't touch */
+.newsShelter
+{
+    width: 1320px;
+    height: 620px;
+    margin: 50px 140px 100px 140px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border: none;
+    border-radius: 20px;
+}
+
+#emailIcon
+{
+    display: flex;
+    justify-content: center;
+}
+
+#emailIcon img
+{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.textForNewsShelter h3
+{
+    width: 896px;
+    height: 75px;
+    color: #070211;
+    font-size: 45px;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin: 30px 140px 40px 140px;
+    text-align: center;
+}
+
+.textForNewsShelter p
+{
+    width: 896px;
+    height: 75px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    margin: 10px 140px 40px 140px;
+    text-align: center;
+}
+
+.textForNewsShelter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1
+{
+    width: 210px;
+    height: 72px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+
+.email
+{
+    width: 648px;
+    height: 72px;
+    border: none;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+
+.textButton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* News shelter is fully completed don't touch */
+
+/* Footer is fully completed don't touch */
+footer
+{
+    height: 450px;
+    width: 1600px;
+    background-color: #070211;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footerMain
+{
+    width: 1320px;
+    height: 400px;
+    
+}
+
+.uptoplefttext
+{
+    color: white;
+    line-height: 30px;
+}
+
+.middleIcon
+{
+    width: 1320px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lastText
+{
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mainTextIcon1
+{
+    width: 160px;
+    height: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.mainTextIcon2
+{
+    width: 180px;
+    height: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.footerContenttop
+{
+    width: 1320px;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;  
+    color: white;
+}
+/* Footer is fully completed don't touch */
