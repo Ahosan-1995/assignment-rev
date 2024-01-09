@@ -9,7 +9,7 @@
 .bannerImage
 {
     background-blend-mode: darken;
-    background-image:url(/Banner\ Image.png);
+    background-image:url(Banner\ Image.png);
     width: 1320px;
     height: 600px;
     margin: 50px 140px 0px 140px;
@@ -236,7 +236,7 @@ main h1
     width: 290px;
     background-color: none;
     border-radius: 50%;
-    background-image: url(/Ellipse\ 1.png);
+    background-image: url(Ellipse\ 1.png);
     
 }
 
